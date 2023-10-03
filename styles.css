@@ -1,0 +1,125 @@
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 100%;
+        background-image: url('images/Nature.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 30px;
+        box-sizing: border-box;
+    }
+
+    #logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .nav-cta button{
+        width: 100px;
+        height: 30px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .nav-cta .signIn{
+        background: transparent;
+        border: 2px solid #3d281c;
+    }
+
+    .nav-cta  .signUp{
+        background-color: #bf3c11;
+        color: white;
+
+    }
+
+    .nav-links{
+        display: flex;
+        gap: 40px;
+    }
+
+    .nav-links a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .hero-section{
+        display: flex;
+        width: 100%;
+        height: 90%;
+        padding: 0 100px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-desc, .hero-img{
+        width: 50%;
+    }
+
+    .hero-desc{
+        color: white;
+    }
+
+    .hero-desc small{
+        font-style: italic;
+        font-size: 16px;
+    }
+
+    .hero-desc h1{
+        font-size: 64px;
+        line-height: 0;
+    }
+
+    .hero-desc h4{
+        font-size: 32px;
+    }
+
+    .hero-desc span{
+        color: #bf3c11;
+        font-size: 90px;
+    }
+
+    .hero-desc p{
+        color: #afa394;
+    }
+
+    .hero-desc button{
+        width: 200px;
+        height: 50px;
+        border-radius: 4px;
+        border: none;
+        background-color: #1a1d1a;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+
+    .hero-img{
+        display: flex;
+        /* border: 1px solid yellow; */
+        justify-content: center;
+    }
+
+
+    .hero-img .myImage{
+        width: 325px;
+        height: 500px;
+        border-top-left-radius: 46px;
+        border-bottom-right-radius: 46px;
+        border-top: 4px solid #63574b; 
+        border-bottom: 4px solid #63574b; 
+    }
+
